@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: white;
+    background-color: rgb(255, 218, 138);
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+}
+
+p{
+    font-size: 24px;
+    background-color:rgba(255, 218, 138, 0.836);
+    padding: 30px;
+    width: 400px;
+    position: relative;
+    border-radius: 20px;
+    text-align: center;
+}
+
+section{
+    height: 80vh;
+    max-height: 2000px;
+    padding: 50px;
+}
+
+#uno{
+    background: url(img/dogos.jpg) no-repeat fixed center center;
+    background-size: cover;
+}
+
+#dos{
+    background: url(img/dog2.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+#tres{
+    background-size: cover;
+}
+
+#cuatro{
+    background-size: cover;
+}
+
+.carousel-inner{
+    max-height: 400px;
+}
+
+label{
+    color: aliceblue;
+}
+
+.btn{
+    border: 0;
+    border-radius: 25px;
+    background-color: rgb(255, 232, 183);
+    box-shadow: 0 0 5px;
+    cursor: pointer;
+}
+
+#pleno{
+    background-color: rgb(255, 248, 234);
+}
+
+nav{
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.card{
+    box-shadow: 0 0 25px;
+}
+
+footer {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    bottom: 0;
+ }

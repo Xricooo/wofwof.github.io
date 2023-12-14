@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>WofWof</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="img/WOF WOF.png" alt="wof" style="width: 250px;">
+        <h1>Casa de adopción de perros</h1>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary" class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Menú</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  <a class="nav-link" href="#perros">Perros</a>
+                  <a class="nav-link" href="#dos">Nosotros</a>
+                  <a class="nav-link" href="#casa">¿Como adoptar?</a>
+                  <a class="nav-link" href="#form">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+
+    <section id="uno"       data-center="background-position: center 0px;"
+                            data-top-bottom="background-position: center -200px;">
+        <p data-bottom="left: 0px;"
+        data-center="left: 100px;"
+        data-top="left: 0px;">Adoptar siempre es mejor</p>
+    </section>
+
+    <section id="pleno">
+        <p id="perros">Nuestros mejores amigos</p>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/dogos2.jpg" class="d-block w-100" alt="dog2">
+              </div>
+              <div class="carousel-item">
+                <img src="img/dogos3.jpg" class="d-block w-100" alt="dog3">
+              </div>
+              <div class="carousel-item">
+                <img src="img/dogos4.jpg" class="d-block w-100" alt="dog4">
+              </div>
+              <div class="carousel-item">
+                <img src="img/dogos5.jpg" class="d-block w-100" alt="dog5">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <div id="aaa">
+    <section id="dos"       
+        data-bottom-top="background-position: center 200px;"                        data-top-bottom="background-position: center -200px;">
+        <p data-bottom="left: 0px;"
+        data-center="left: 100px;"
+        data-top="left: 0px;">Nosotros</p>
+
+        <div class="card">
+            <img src="img/WOF WOF.png" style="height: 400px; width: 400px; vertical-align: center;" class="card-img-top" alt="wof">
+            <div class="card-body">
+              <h3 class="card-title">Un poco de historia</h3>
+              <h4>Comenzamos a rescatar perros de la calle cuando solo eramos unos pocos, luego nos fuimos quedando sin lugar en nuestras casas asi que tuvimos que ampliarnos a buscar nuevos horizontes. Ahi fue cuando fundamos WOF WOF, un hogar para perros con posibilidad de adopción para familias responsables! Pueden ver más sobre esta propuesta en nuestras redes sociales.</h4>
+                <br>
+              <a href="https://instagram.com" class="btn btn-primary">Síguenos!</a>
+            </div>
+          </div>
+
+    </section>
+    </div>
+    
+    <section id="pleno">
+        <p id="casa">¿Como adoptar?</p>
+            <iframe width="1080px" height="720px" src="https://www.youtube.com/embed/mlfzDp9rjos?si=EYr3QsgddZIj__fY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </section>
+    </div>
+
+    <section id="pleno" class="form">
+        <p id="form">Escribenos!</p>
+        <form action="https://formsubmit.co/federico.tealdi@davinci.edu.ar" method="POST">
+            <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" name= "email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+            <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <input class="btn" type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <script src="skrollr.js"></script>
+    <script type="text/javascript" src="skrollr.min.js"></script>
+	<script type="text/javascript">
+	var s = skrollr.init();
+	</script>
+
+</body>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+<footer>
+    <p2>Tealdi Federico / Maquetado y desarrollo web / 2023</p2>
+</footer>
+</html>
